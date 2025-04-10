@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+.pyenv/
+
+# Flask env files
+*.env
+.env.*
+instance/
+config.py
+
+# IDE/editor stuff
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and runtime files
+*.log
+*.pid
+*.sqlite3
+*.db
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+test-results/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+__pypackages__/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Firebase / Google stuff (if used)
+.firebase/
